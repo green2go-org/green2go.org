@@ -1,0 +1,223 @@
+:root {
+  --g2g-dark-green: #206739;
+  --g2g-green: #63a500;
+}
+
+/* Basic CSS */
+* {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #888888;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.larger-font {
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+.white-font {
+    color: white;
+}
+
+.dark-green-font {
+    color: var(--g2g-dark-green);
+}
+
+.left-aligned-text {
+    text-align: left;
+}
+
+.dark-green-background {
+     background-color: var(--g2g-dark-green);
+}
+
+/* Full width CSS (includes footer and header) */
+.full-width {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    padding: 1em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.wide-width {
+    width: 100%;
+    max-width: 80em;
+    display: inline-block;
+}
+
+.medium-wide-width {
+    width: 100%;
+    max-width: 70em;
+    display: inline-block;
+    padding: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.medium-width {
+    width: 100%;
+    max-width: 60em;
+    display: inline-block;
+}
+
+.full-width-header {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    padding: 1em;
+    background-color: #fefefe;
+    border-bottom: solid 1px #CCC;
+}
+
+.full-width-header-internal-container {
+    width: 100%;
+    max-width: 1440px;
+    display: inline-block;
+    text-align: center;
+}
+
+.full-width-header-site-title {
+    float: left;
+    display: inline-block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.website-logo {
+    width: 300px;
+}
+
+footer {
+    min-height: 10em;
+    background-color: #f1f1f1;
+    color: #444444;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-credit {
+    color: #888888; font-size: 0.8em;
+}
+
+strong {
+    font-size: 1.5em;
+    display: block;
+    color: white;
+}
+
+strong.h3 {
+    font-size: 1.2em;
+    display: block;
+    color: white;
+}
+
+/*  Menu CSS */
+.menu-container {
+    display: block;
+    float: right;
+    margin-top: 2em;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0;
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.current-menu-item-link {
+    color: var(--g2g-dark-green);
+    border-bottom: solid 2px var(--g2g-dark-green);
+}
+
+.horizontal-menu {
+    list-style-type: none;
+}
+
+.horizontal-menu li {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+/* Highlight CSS */
+.highlight {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.highlight-photo-container {
+    display: block;
+    float: left;
+    height: 250px;
+}
+
+.highlight-photo {
+    width: 300px;
+    float: left;
+    margin-right: 3em;
+}
+
+/* Team CSS */
+.team-image {
+    float: left;
+    object-fit: cover;
+    margin-right: 1.5em;
+    width: 15em;
+    height: 15em;
+}
+
+.team-member-info li {
+    display: block;
+}
