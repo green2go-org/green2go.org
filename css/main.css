@@ -1,11 +1,16 @@
 :root {
   --g2g-dark-green: #206739;
   --g2g-green: #00be01; /* #63a500; */
+  --g2g-leaf-green: #63AA48;
+  --g2g-grey: #404041;
+  --g2g-blue: #DBEFF2;
+  --g2g-white: #FEFEFE;
+
 }
 
 /* Basic CSS */
 * {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
     color: #888888;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -15,15 +20,17 @@ body, html {
     padding: 0px;
     margin: 0px;
     text-align: center;
-    background-color: #fefefe;
+    background-color: var(--g2g-white);
 }
 
 p {
+  font-weight: 400;
     line-height: 1.5em;
 }
 
 h1 {
-    font-size: 4em;
+  font-weight: 600;
+  font-size: 4em;
 }
 
 h2 {
