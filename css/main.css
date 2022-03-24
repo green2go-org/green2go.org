@@ -252,3 +252,9 @@ strong.h3 {
 .team-member-info li {
     display: block;
 }
+
+/* Map CSS */
+#map {
+    min-height: 500px;
+    width: 100%;
+}
