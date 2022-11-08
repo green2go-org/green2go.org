@@ -59,6 +59,10 @@ h2 {
     color: var(--g2g-dark-green);
 }
 
+.grey-font {
+    color: var(--g2g-grey);
+}
+
 .left-aligned-text {
     text-align: left;
 }
@@ -257,6 +261,14 @@ strong.h3 {
 
 .team-member-info li {
     display: block;
+}
+
+#press-list {
+    line-height: 2em;
+}
+
+#press-list, #press-list li {
+    text-align: left;
 }
 
 /* Map CSS */
